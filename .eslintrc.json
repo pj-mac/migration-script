@@ -1,0 +1,70 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "array-callback-return": "off",
+        "curly": [
+            "off"
+        ],
+        "eol-last": [
+            "off"
+        ],
+        "eqeqeq": [
+            "warn"
+        ],
+        "import/no-webpack-loader-syntax": [
+            "off"
+        ],
+        "indent": [
+            "warn",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "no-trailing-spaces": [ "warn", {
+            "ignoreComments": true,
+            "skipBlankLines": true
+        }],
+        "no-undef": [
+            "warn"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "no-use-before-define": [
+            "warn"
+        ],
+        "no-var": [
+            "warn"
+        ],
+        "quotes": [
+            "warn",
+            "double",
+            { "avoidEscape": true, "allowTemplateLiterals": true }
+        ],
+        "quote-props": "off",
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "space-before-function-paren": ["warn", {
+            "anonymous": "ignore",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "spaced-comment": [
+            "off"
+        ],
+        "unicode-bom": [
+            "off"
+        ]
+    }
+}
